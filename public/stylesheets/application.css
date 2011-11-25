@@ -1,21 +1,36 @@
-/*
-  Override default refinery application CSS below.
-  Formatting applies to all frontend.
-*/
-
 body {
   background: #DDD;
-  font-family: Verdana;
-  font-size: 13px;
+  font-family: 'Signika', 'Arial';
+  font-size: 14px;
   line-height: 18px;
 }
 
+.clear {
+  clear: both;
+}
+
 #body_content, #side_body_content {
-  float: left;
-  width: 45%;
   background: white;
   color: #333;
   padding: 20px;
+}
+
+#body_content_left {
+  float: left;
+  width: 460px;
+}
+
+#page_container > header {
+  background: #22a7f2;
+}
+
+header h1 {
+  padding: 24px 10px 10px;
+}
+
+header h1 a {
+  color: #fff;
+  text-decoration: none;
 }
 
 #menu ul {
@@ -29,8 +44,9 @@ body {
 }
 
 #menu ul li a {
+  color: #333;
   display: block;
-  padding: 5px 10px;
+  padding: 5px 20px;
   text-decoration: none;
 }
 
