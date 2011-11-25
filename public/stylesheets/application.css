@@ -24,6 +24,11 @@ body {
   width: 460px;
 }
 
+#body_content_right {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
 #body_content_left {
   float: left;
   width: 460px;
