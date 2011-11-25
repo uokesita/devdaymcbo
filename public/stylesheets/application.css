@@ -9,10 +9,19 @@ body {
   clear: both;
 }
 
-#body_content, #side_body_content {
+#page {
+  background: #fff;
+}
+
+#body_content,#main_content, #side_body_content {
   background: white;
   color: #333;
   padding: 20px;
+}
+
+#main_content {
+  float: left;
+  width: 460px;
 }
 
 #body_content_left {
@@ -37,10 +46,9 @@ header h1 a {
   list-style: none;
   padding: 0px;
 }
-
+.menu li { margin-right: 0;}
 #menu ul li {
   float: left;
-  margin-right: 10px;
 }
 
 #menu ul li a {
